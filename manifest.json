@@ -1,0 +1,15 @@
+{
+  "display_name": "CompanionLab Character State",
+  "version": "0.2.0",
+  "author": "CompanionLab",
+  "loading_order": 100,
+  "requires": [],
+  "js": "index.js",
+  "hooks": {
+    "activate": "start",
+    "enable": "start",
+    "disable": "stop",
+    "delete": "stop"
+  },
+  "companionlab_target": "TauriTavern 2.4.0 / fff9af0333be97697be2313981699ab0ce35c236 / ABI 2"
+}
